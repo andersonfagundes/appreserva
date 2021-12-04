@@ -34,7 +34,7 @@ public class ReservaTest {
 		servicos.add(alimentacao);
 		servicos.add(lazer);
 		
-		Empresa empresa = new Empresa();
+		//Empresa empresa = new Empresa();
 		//TODO preencher um primeiro atributo
 		//TODO preencher um segundo atributo
 		//TODO preencher um terceiro atributo
@@ -43,7 +43,7 @@ public class ReservaTest {
 		reserva.setId(1);
 		//TODO preencher um segundo atributo
 		//TODO preencher um terceiro atributo
-		reserva.setEmpresa(empresa);
+		//reserva.setEmpresa(empresa);
 		reserva.setServicos(servicos);
 	}
 }
