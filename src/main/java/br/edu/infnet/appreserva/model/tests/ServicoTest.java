@@ -5,7 +5,12 @@ import br.edu.infnet.appreserva.model.domain.Hospedagem;
 import br.edu.infnet.appreserva.model.domain.Lazer;
 
 public class ServicoTest {
-	Hospedagem hospedagem = new Hospedagem();
-	Alimentacao alimentacao = new Alimentacao();
-	Lazer lazer = new Lazer();
+	
+	public static void main(String[] args) {
+	
+		Hospedagem hospedagem = new Hospedagem();
+		Alimentacao alimentacao = new Alimentacao();
+		Lazer lazer = new Lazer();
+	
+	}
 }

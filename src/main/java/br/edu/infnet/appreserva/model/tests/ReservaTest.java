@@ -11,6 +11,7 @@ import br.edu.infnet.appreserva.model.domain.Reserva;
 import br.edu.infnet.appreserva.model.domain.Servico;
 
 public class ReservaTest {
+
 	public static void main(String[] args) {
 		
 		Hospedagem hospedagem = new Hospedagem();

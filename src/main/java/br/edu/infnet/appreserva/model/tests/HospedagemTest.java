@@ -4,6 +4,9 @@ import br.edu.infnet.appreserva.model.domain.Hospedagem;
 
 public class HospedagemTest {
 	
-	Hospedagem hospedagem = new Hospedagem();
-
+	public static void main(String[] args) {
+	
+		Hospedagem hospedagem = new Hospedagem();
+	
+	}
 }
