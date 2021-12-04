@@ -4,11 +4,13 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class Reserva {
+
 	private Integer id;
 	private LocalDateTime data;
-	//
-	//
-	//
+	private float valor;
+	private LocalDateTime dataInicio;
+	private LocalDateTime dataFim;
+	
 	private Empresa empresa;
 	private List<Servico> servicos;
 	
@@ -42,6 +44,30 @@ public class Reserva {
 
 	public void setServicos(List<Servico> servicos) {
 		this.servicos = servicos;
+	}
+
+	public float getValor() {
+		return valor;
+	}
+
+	public void setValor(float valor) {
+		this.valor = valor;
+	}
+
+	public LocalDateTime getDataInicio() {
+		return dataInicio;
+	}
+
+	public void setDataInicio(LocalDateTime dataInicio) {
+		this.dataInicio = dataInicio;
+	}
+
+	public LocalDateTime getDataFim() {
+		return dataFim;
+	}
+
+	public void setDataFim(LocalDateTime dataFim) {
+		this.dataFim = dataFim;
 	}
 	
 }
