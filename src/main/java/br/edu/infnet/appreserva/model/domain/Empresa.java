@@ -26,4 +26,10 @@ public class Empresa {
 		this.telefone = telefone;
 	}
 	
+	public Empresa(String nome, String cnpj, String telefone) {
+		this.nome = nome;
+		this.cnpj = cnpj;
+		this.telefone = telefone;
+	}
+	
 }
