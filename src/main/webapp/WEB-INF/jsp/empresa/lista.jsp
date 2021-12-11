@@ -48,7 +48,7 @@
 			        <td>${e.cnpj}</td>
 			        <td>${e.telefone}</td>
 			        <td>${e.usuario.nome}</td>
-			        <td><a href="/empresa/${s.id}/excluir">excluir</a></td>
+			        <td><a href="/empresa/${e.id}/excluir">excluir</a></td>
 			      </tr>
 		      </c:forEach>		      
 		    </tbody>

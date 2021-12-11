@@ -28,9 +28,9 @@
 
 	    <div class="mb-3">
 	      <label>Senha:</label>
-	      <input type="password" class="form-control" placeholder="Entre com a sua senha" name="senha" value="elberth.moraes@prof.infnet.edu.br">
+	      <input type="password" class="form-control" placeholder="Entre com a sua senha" name="senha" value="123">
 	    </div>
-
+		<br/>
 	    <button type="submit" class="btn btn-primary">Acessar</button>
 	  </form>
 	</div>
