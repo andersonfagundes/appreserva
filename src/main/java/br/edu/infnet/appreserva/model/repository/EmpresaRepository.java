@@ -11,6 +11,6 @@ import br.edu.infnet.appreserva.model.domain.Empresa;
 @Repository
 public interface EmpresaRepository extends CrudRepository<Empresa, Integer> {
 
-	@Query("from Solicitante s where s.usuario.id = :userid")
+	@Query("from Empresa s where s.usuario.id = :userid")
 	public List<Empresa> findAll(Integer userid);
 }
