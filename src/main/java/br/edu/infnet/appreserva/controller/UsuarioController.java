@@ -35,7 +35,7 @@ public class UsuarioController {
 		
 		usuarioService.incluir(usuario);
 		
-//		model.addAttribute("mensagem", "O usuário "+usuario.getNome()+" foi cadastrado com sucesso!!!");
+		model.addAttribute("mensagem", "O usuário "+usuario.getNome()+" foi cadastrado com sucesso!!!");
 		
 		return "redirect:/";
 	}
