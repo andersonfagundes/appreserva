@@ -29,10 +29,10 @@ public class EmpresaController {
 		
 		model.addAttribute("lista", empresaService.obterLista(usuario));
 		
-		return "solicitante/lista";
+		return "empresa/lista";
 	}
 
-	@PostMapping(value = "/solicitante/incluir")
+	@PostMapping(value = "/empresa/incluir")
 	public String incluir(Model model, Empresa empresa, @SessionAttribute("user") Usuario usuario) {
 		
 		empresa.setUsuario(usuario);

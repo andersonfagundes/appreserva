@@ -23,19 +23,19 @@
 	  <form action="/usuario/incluir" method="post">
 	    <div class="mb-3 mt-3">
 	      <label>Nome:</label>
-	      <input type="text" class="form-control" placeholder="Entre com o seu nome" name="nome" value="Elberth L C Moraes">
+	      <input type="text" class="form-control" placeholder="Entre com o seu nome" name="nome" value="Usuario test">
 	    </div>
 
 	    <div class="mb-3 mt-3">
 	      <label>E-mail:</label>
-	      <input type="email" class="form-control" placeholder="Entre com o seu e-mail" name="email" value="elberth.moraes@prof.infnet.edu.br">
+	      <input type="email" class="form-control" placeholder="Entre com o seu e-mail" name="email" value="usuario@infnet.al.edu.br">
 	    </div>
 
 	    <div class="mb-3 mt-3">
 	      <label>Senha:</label>
 	      <input type="password" class="form-control" placeholder="Entre com o sua senha" name="senha" value="123">
 	    </div>
-
+		<br/>
 	    <button type="submit" class="btn btn-primary">Cadastrar</button>
 	  </form>
 	</div>

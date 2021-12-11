@@ -29,7 +29,7 @@
 	      <label>CPF:</label>
 	      <input type="text" class="form-control" placeholder="Entre com o seu Telefone" name="telfone" value="21999999999">
 	    </div>
-
+		<br/>
 	    <button type="submit" class="btn btn-primary">Cadastrar</button>
 	  </form>
 	</div>
