@@ -7,12 +7,13 @@ import org.springframework.stereotype.Service;
 
 import br.edu.infnet.MyAppPedido.model.domain.Usuario;
 import br.edu.infnet.appreserva.model.domain.Empresa;
+import br.edu.infnet.appreserva.model.repository.EmpresaRepository;
 
 @Service
 public class EmpresaService {
 	
 	@Autowired
-	private EmpresaService empresaRepository;
+	private EmpresaRepository empresaRepository;
 
 	public List<Empresa> obterLista(){
 
