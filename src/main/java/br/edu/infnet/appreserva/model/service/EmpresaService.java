@@ -1,12 +1,12 @@
-package br.edu.infnet.MyAppPedido.model.service;
+package br.edu.infnet.appreserva.model.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.edu.infnet.MyAppPedido.model.domain.Usuario;
 import br.edu.infnet.appreserva.model.domain.Empresa;
+import br.edu.infnet.appreserva.model.domain.Usuario;
 import br.edu.infnet.appreserva.model.repository.EmpresaRepository;
 
 @Service
