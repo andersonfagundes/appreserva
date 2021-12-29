@@ -24,7 +24,7 @@ public class UsuarioController {
 	
 	@GetMapping(value = "/usuarios")
 	public String telaLista(Model model) {
-		
+
 		model.addAttribute("lista", usuarioService.obterLista());
 		
 		return "usuario/lista";
@@ -37,9 +37,11 @@ public class UsuarioController {
 		
 		model.addAttribute("mensagem", "O usuário "+usuario.getNome()+" foi cadastrado com sucesso!!!");
 		
-		return "redirect:/";
+		//return "redirect:/";
+		return telaLista(model);
 	}
 
+	
 	@GetMapping(value = "/usuario/{id}/excluir")
 	public String excluir(Model model, @PathVariable Integer id) {
 
