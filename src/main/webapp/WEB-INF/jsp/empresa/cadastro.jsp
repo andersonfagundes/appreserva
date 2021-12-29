@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Cadastro de Empresas</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -21,13 +21,13 @@
 	    </div>
 
 	    <div class="mb-3 mt-3">
-	      <label>E-mail:</label>
+	      <label>CNPJ:</label>
 	      <input type="text" class="form-control" placeholder="Entre com o seu cnpj" name="cnpj" value="123456789">
 	    </div>
 
 	    <div class="mb-3 mt-3">
-	      <label>CPF:</label>
-	      <input type="text" class="form-control" placeholder="Entre com o seu Telefone" name="telfone" value="21999999999">
+	      <label>Telefone:</label>
+	      <input type="text" class="form-control" placeholder="Entre com o seu Telefone" name="telefone" value="21999999999">
 	    </div>
 		<br/>
 	    <button type="submit" class="btn btn-primary">Cadastrar</button>
